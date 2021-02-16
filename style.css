@@ -3,25 +3,64 @@
     margin: 0;
 }
 
-/* Colors */
 :root {
+    /* Colors */
     --background-color: #4527a0;
-    --normal-color: #fff7ff;
+    --normal-color: #d05ce3;
+    --primary-color: #ffeb3b;
+    --secondary-color : #00e5ff; 
+
+    /* Font */
+    --font-size : 62.5%; /* 10px */
+    --font-weight : inherit
+}
+
+h1{
+    font-size: var(--font-size);
+    font-weight: var(--font-weight);
 }
 
 /* Components */
 body
 {
+    font-size: 1.4rem;
     background-color:var(--background-color);
     color: var(--normal-color);
 }
 
 /* Layouts */
 .wrapper{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    margin: 0 auto;
     height: 100vh;
     width: 960px;
+    padding: 0 2rem;
+}
+
+.header{
+    display: flex;
+    padding: 2rem 0;
+    align-items: center;
+}
+.header-title{
+    font-size: 5rem;
+    font-family: 'Cantora One', sans-serif;
+    line-height: 1;
+    color: var(--secondary-color)
+}
+.header-title strong{
+    display: block;
+    color: var(--primary-color);
+}
+.header-desc{
+    display: flex;
+    margin-left: auto;
+    font-size: 2rem;
+    align-items: center;
+}
+.header-desc::before{
+    content: ' ';
+    width: 2em;
+    height: 2px;
+    margin: 0 2em;
+    background-color: currentColor;
 }
