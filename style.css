@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+/* Colors */
+:root {
+    --background-color: #4527a0;
+    --normal-color: #fff7ff;
+}
+
+/* Components */
+body
+{
+    background-color:var(--background-color);
+    color: var(--normal-color);
+}
+
+/* Layouts */
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 960px;
+}
