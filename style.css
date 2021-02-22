@@ -27,7 +27,6 @@ body,h1,h2,ol,p{
 li{
     list-style-type: none;
 }
-
 /* Components */
 body
 {
@@ -79,7 +78,9 @@ body
     width: 100%;
 }
 .timeline li{
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.2);
 }
 
 .parts{
@@ -113,8 +114,25 @@ body
     font-size: 1.5rem;
 }
 .parts-agenda p{
+    display: flex;
+    align-items: center;
     margin:  4px 0;
+    color: var(--secondary-color);
 }
+.parts-role{
+    display: flex;
+    align-items: center;
+    color: var(--normal-color);
+}
+.parts-role::before {
+    content: ' ';
+    width: 0.4em;
+    height: 0.4em;
+    margin: 0 0.6em;
+    border-radius: 50%;
+    background-color: currentColor;
+}
+
 .parts-agenda h2{
     color: var(--primary-color);
     font-size: 2rem;
