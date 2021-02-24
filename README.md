@@ -1,6 +1,5 @@
-# webpage_2
+# HTML,CSS,JS page
 
-## HTML,CSS,JS page
 URL : https://gilhwane.github.io/webpage_2/
 
 ### color
