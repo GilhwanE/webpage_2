@@ -66,7 +66,7 @@ body
     content: ' ';
     width: 2em;
     height: 2px;
-    margin: 0 2em;
+    margin: 0 4em;
     background-color: currentColor;
 }
 /* parts */
@@ -84,6 +84,14 @@ body
     padding: 2rem 0;
     display: flex;
     align-items: center;
+}
+.parts_lunch {
+	padding: 4rem 0;
+	margin: 4rem 0;
+}
+
+.parts_lunch .parts-agenda h2 {
+	color: var(--secondary-color);
 }
 .parts-times{
     width: 200px;
@@ -135,6 +143,10 @@ body
 
 
 @media screen and (max-width:720px){
+
+    :root{
+        font-size: 12px;
+    }
    /* header */
     .header {
         display: block;
