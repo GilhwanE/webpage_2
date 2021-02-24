@@ -4,8 +4,8 @@
 URL : https://gilhwane.github.io/webpage_2/
 
 ### color
-background : #4527a0,
-font-color : #d05ce3, #ffeb3b, #00e5ff
+background : #4527a0 <br>
+font-color : #d05ce3 #ffeb3b #00e5ff
 
 <hr>
 ## Page View
