@@ -3,7 +3,9 @@
 ## HTML,CSS,JS page
 URL : https://gilhwane.github.io/webpage_2/
 
-## color : #4527a0, #d05ce3, #ffeb3b, #00e5ff
+### color
+background : #4527a0,
+font-color : #d05ce3, #ffeb3b, #00e5ff
 
 <hr>
 ## Page View
