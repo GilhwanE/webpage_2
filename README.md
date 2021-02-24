@@ -14,5 +14,5 @@ font-color : #d05ce3 #ffeb3b #00e5ff
 ![page2](https://user-images.githubusercontent.com/63918911/108956930-e64d9600-76b3-11eb-88e9-b2f7be58b349.PNG)
 <hr>
 
-## mobile View
+## Mobile View
 ![mobiie](https://user-images.githubusercontent.com/63918911/108956933-e8aff000-76b3-11eb-8d76-c09c17d3e2f4.PNG)
