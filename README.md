@@ -8,7 +8,7 @@ background : #4527a0 <br>
 font-color : #d05ce3 #ffeb3b #00e5ff
 
 <hr>
-## Page View
+<h2> Page View </h2>
 
 ![page1](https://user-images.githubusercontent.com/63918911/108956926-e51c6900-76b3-11eb-9ca1-5381462c48ad.PNG)
 ![page2](https://user-images.githubusercontent.com/63918911/108956930-e64d9600-76b3-11eb-88e9-b2f7be58b349.PNG)
